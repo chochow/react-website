@@ -102,14 +102,14 @@
       {
         "title":"Bus Simulator",
         "category":"Senior Project",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "image":"simulation.png",
+        "url":"https://github.com/chochow/Bus-Simulator/tree/master/project"
       },
       {
-        "title":"Spotify Match",
+        "title":"Spotify Match Under Progress",
         "category":"Spotify Analysis",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "image":"spotify.png",
+        "url":"https://github.com/chochow/Spotifymatch"
       },
       {
         "title":"Rate My Course",

@@ -1,0 +1,146 @@
+{
+  "main": {
+    "name":"Cho Zhang",
+    "occupation":"Full Stack",
+    "description":"currently employed by 22Miles where I work as a full stack software engineer across the range of our products",
+    "image":"profilepic.jpg",
+    "bio":"I am an athlete at heart, with an entrepreneurial spirit, and a passion for coding and music. I pursued my first development job to kick off my career. I was hired as a full stack developer by 22miles, where I still work today. I am currently working towards my personal web application while working as a full stack developer",
+    "contactmessage":"You can leave some your message here, and I will reach out to you.",
+    "email": "zhan5559@umn.com",
+    "phone": "763-312-4533",
+    "address":{
+      "street":"3555 KOGER BLVD STE 130",
+      "city":"Duluth",
+      "state":"GA",
+      "zip": "30096"
+    },
+    "website": "https://chochow.herokuapp.com/",
+    "resumedownload":"https://sites.google.com/a/umn.edu/chochow/Cho_Zhang_Resume_new.pdf?attredirects=0&d=1",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/cho.zhang.96",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/zhongqiu-zhang-031517159/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/chochow",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"These are skills I used the most often",
+    "education":[
+      {
+        "school":"University of Minnesota, Twin Cities",
+        "degree":"Bachlor of Arts in Computer Science",
+        "graduated":"December 2019",
+        "description":"After finish my first semester in CSUF, I transferred to the University of Minnesota, Twin Cities. Here I took my Bachelors of Computer Science and achieved a much more thorough education in the underlying theory, concepts, and science behind more complex programming. It was here that I discovered my passion for scalable application programming (web and mobile), the power of data behind application and application systems, and found that I have a knack for understanding complex algorithms."
+      }
+    ],
+    "work":[
+      {
+        "company":"22Miles, INC",
+        "title":"Full Stack",
+        "years":"May 2019 - Present",
+        "description":"For most of my time at 22Miles, I have worked as a Full Stack Software Engineer. Here I have had the chance to dig in and get my hands dirty with all parts of our software. I have worked with our legacy PHP backend, as well as wrote scripting for new project."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "image":"git.jpg",
+        "description":"I use git for every personal project. Because it is safe and convient"
+      },
+      {
+        "name":"Python",
+        "image":"python.png",
+        "description":"Python is a gr data manipulation and data process"
+      },
+      {
+        "name":"C++",
+        "image":"c++.png",
+        "description":"I use it for my senior project. It is low level and quick."
+      },
+      {
+        "name":"ReactJs",
+        "level":"80%",
+        "image":"react.png",
+        "description":"The most popular frame work company use right. It is fast for me and lightwighted. And some other library and open source that i can learn for my own project. which makes it more favinating for me"
+      },
+      {
+        "name":"Java",
+        "level":"50%",
+        "image":"java.jpg",
+        "description":"For my first android app, RateMyCourse"
+      },
+      {
+        "name":"NodeJs",
+        "image":"node.jpg",
+        "description":"node js is the great tool to have a server side for the website"
+      },
+      {
+        "name":"Flask",
+        "image":"flask.jpg",
+        "description":"I use flask construct an spotify data explorer API"
+      },
+      {
+        "name":"mysql",
+        "image":"mysql.jpg",
+        "description":""
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Bus Simulator",
+        "category":"Senior Project",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Spotify Match",
+        "category":"Spotify Analysis",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Rate My Course",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Spotify Simple API",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"",
+        "user":""
+      },
+      {
+        "text":"",
+        "user":""
+      }
+    ]
+  }
+}

@@ -113,21 +113,21 @@
       },
       {
         "title":"Rate My Course",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "category":"Andorid app made for UMN stundents to register a good class",
+        "image":"ratemyclass.png",
+        "url":"https://youtu.be/YkDmQMWZcn4"
       },
       {
         "title":"Resume Website",
         "category":"A React based resume website template",
         "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://chochow.herokuapp.com/"
       },
       {
         "title":"Spotify Simple API",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "category":"Your own spotify data explorer",
+        "image":"spotify.png",
+        "url":"https://spotifyexplorer.herokuapp.com/"
       }
     ]
   },

@@ -1,22 +1,52 @@
   
 import React, { Component } from 'react';
+import axios from 'axios';
 
 class Contact extends Component {
 
-//   smtp = () => {
-//       Email.send({
-//       Host: "smtp.gmail.com",
-//       Username : "<sender’s email address>",
-//       Password : "<email password>",
-//       To : '<recipient’s email address>',
-//       From : "<sender’s email address>",
-//       Subject : "<email subject>",
-//       Body : "<email body>",
-//       }).then(
-//          message => alert("mail sent successfully")
-//       );
+   constructor(props) {
+      super(props);
+      this.state = {
+        name: '',
+        email: '',
+        message: ''
+      }
+     }
+   
+     handleSubmit(e){
+       e.preventDefault();
+       axios({
+         method: "POST", 
+         url:"https://hostingmyserver.herokuapp.com/send", 
+         // hosting need to be changed
+         data:  this.state
+       }).then((response)=>{
+         if (response.data.status === 'success'){
+           alert("Message Sent."); 
+           this.resetForm()
+         }else if(response.data.status === 'fail'){
+           alert("Message failed to send.")
+         }
+       })
+     }
+   
+     resetForm(){
+       
+        this.setState({name: "", email: "", message: ""})
+     }
 
-//   }
+     onNameChange(event) {
+      this.setState({name: event.target.value})
+     }
+   
+     onEmailChange(event) {
+      this.setState({email: event.target.value})
+     }
+   
+     onMessageChange(event) {
+      this.setState({message: event.target.value})
+     }
+
 
   render() {
 
@@ -53,37 +83,26 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+               <form id="contactForm" onSubmit={this.handleSubmit.bind(this)} method="POST">
+                  <div className="form-group">
+                  <label htmlFor="name">Name</label>
+                  <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
                   </div>
-
-                  <div>
-						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+                  <div className="form-group">
+                        <label htmlFor="exampleInputEmail1">Email address</label>
+                        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
                   </div>
-
-                  <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  <div className="form-group">
+                        <label htmlFor="message">Message</label>
+                        <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
                   </div>
+                  <button type="submit" className="btn btn-primary">Submit</button>
+               </form>
 
-                  <div>
-                     <button className="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif" />
-                     </span>
-                  </div>
-					</fieldset>
-				   </form>
-
-           <div id="message-warning"> Error boy</div>
-				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-				   </div>
+               <div id="message-warning"> Error boy</div>
+                     <div id="message-success">
+                        <i className="fa fa-check"></i>Your message was sent, thank you!<br />
+                     </div>
            </div>
 
 

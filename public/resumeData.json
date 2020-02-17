@@ -56,23 +56,23 @@
       {
         "name":"Git",
         "image":"git.jpg",
-        "description":"I use git for every personal project. Because it is safe and convient"
+        "description":"I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects."
       },
       {
         "name":"Python",
         "image":"python.png",
-        "description":"Python is a gr data manipulation and data process"
+        "description":"Python is a great tool for data manipulation and data process"
       },
       {
         "name":"C++",
         "image":"c++.png",
-        "description":"I use it for my senior project. It is low level and quick."
+        "description":"I used it for my senior project."
       },
       {
         "name":"ReactJs",
         "level":"80%",
         "image":"react.png",
-        "description":"The most popular frame work company use right. It is fast for me and lightwighted. And some other library and open source that i can learn for my own project. which makes it more favinating for me"
+        "description":"The most popular frame work company use right. It is fast for me and lightwighted. And some other library and open source that i can learn for my own project."
       },
       {
         "name":"Java",
@@ -83,17 +83,17 @@
       {
         "name":"NodeJs",
         "image":"node.jpg",
-        "description":"node js is the great tool to have a server side for the website"
+        "description":"Node JS is my server-side scripting language of choice."
       },
       {
         "name":"Flask",
         "image":"flask.jpg",
-        "description":"I use flask construct an spotify data explorer API"
+        "description":"I use flask construct an spotify data explorer API, because python is much more convinent to do dataprocess task."
       },
       {
         "name":"mysql",
         "image":"mysql.jpg",
-        "description":""
+        "description":"I have used many different database systems and am better educated and experienced with Relational Databases. However, it is much more enjoyable to work with MySQL."
       }
     ]
   },
